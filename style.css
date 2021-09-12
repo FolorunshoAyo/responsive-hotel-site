@@ -1,0 +1,389 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    font-family: Spinnaker ,Helvetica,Arial,sans-serif;;
+}
+
+header{
+    background: url("images/hotelLarge.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+.top-banner{
+    background-color: rgb(127,117,104);
+    opacity: 0.6;
+    height: 40px;
+    display: flex;
+    padding: 0px 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+.show {
+    display: none;
+}
+.call a{
+    display: inline-block;
+    margin-right: 20px;
+    text-decoration: none;
+    color: rgb(233,231,229);
+
+}
+.call a i{
+    margin-right: 5px;
+    font-size: 15px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+    margin: 10px 0;
+    align-items: center;
+}
+.nav-links{
+    padding: 10px 0px;
+}
+.nav-links a{
+    text-decoration: none;
+    color: rgb(233,231,229);
+    font-size: 16px;
+    display: inline-block;
+    margin: 0px 15px;
+    padding: 15px 0px;
+}
+.nav-links button{
+    border: 1px solid rgba(0,0,0,0.4);
+    background: transparent;
+    padding: 0px 18px;
+    margin-top: 6px;
+    margin-left: 16px;
+    border-radius: 50px;
+}
+.nav-links a i{
+    margin-left: 5px;
+}
+.nav-arr{
+    display: flex;
+    justify-content: space-between;
+}
+.burger{
+   display: none;
+    width: 40px;
+    padding-top: 40px;
+    height: 50px
+}
+.line1, .line2, .line3{
+    background-color: white;
+    margin-bottom: 5px;
+    width: 30px;
+    height: 3px;
+}
+.overlay{
+    max-width: 900px;
+    margin: 100px auto;
+    text-align: center;
+    height: auto;
+}
+.overlay h1{
+    font-size: 80px;
+    color: rgb(233,231,229);
+}
+.overlay p{
+    color: rgb(233,231,229);
+    font-size: 30px;
+}
+form{
+    max-width: 800px;
+    padding: 30px 0px;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns:  auto auto auto auto auto;
+}
+.input-group input, .input-group select{
+    padding: 0px 22.1px 0px 15px;
+    height: 50px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+}
+.input-group input:focus, .input-group:focus{
+    border: 1px solid #f25f5c;
+}
+form input[type="button"]{
+    width: 225px;
+    height: 50px;
+    border-radius: 20px;
+    margin-top: 20px;
+    border: none;
+    background-color: #f25f5c;
+    color: white;
+    font-size: 18px;
+}
+form input[type="button"]:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+.container{
+    background-color: #5c5c5c;
+    padding: 50px 0
+}
+.our-hotel{
+    max-width: 900px;
+    height: auto;
+    margin: 0px auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.our-hotel h3{
+    font-size: 30px;
+    margin-bottom: 40px;
+    padding-bottom: 15px;
+    letter-spacing: 5px;
+    font-weight: lighter;
+    color: #f25f5c;
+}
+.our-hotel h3 span{
+    display: block;
+    max-width: 15%;
+    margin: 0px auto;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #f25f5c;
+}
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+      display: none;
+  }
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: black;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade; /* for safari */
+    -webkit-animation-duration: 2s;
+    animation-name: fade;
+    animation-duration: 2s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {
+        transform: translateX(-110%);
+        opacity: .8;
+    }
+    to {
+        transform: translateX(0%);
+        opacity: 1;
+    }
+  }
+  
+  @keyframes fade {
+    from {
+        transform: translateX(-110%);
+        opacity: .8;
+    }
+    to {
+        transform: translateX(0%);
+        opacity: 1
+    }
+  }
+  .paradise{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 40px;
+      padding: 0 100px;
+      margin: 50px auto;
+  }
+  video{
+     max-width: 100%;
+     height: auto;
+  }
+  .welcome h2{
+      font-size: 30px;
+      padding: 20px 0;
+  } 
+  footer{
+    background: #292e31;
+    padding: 50px 30px;
+  }
+.footer-arr{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 50px;
+}
+.footer-arr h4{
+    padding-bottom: 10px;
+    font-size: 18px;
+    color: white;
+    border-bottom: 1px solid gray;
+}
+.text-widget{
+    color: #d2d2d2;
+    padding: 30px 0;
+}
+.text-widget a{
+    text-decoration: none;
+    display: block;
+    color: #d2d2d2;
+    padding-bottom: 10px;
+}
+.text-widget button{
+    background-color:  #292e31;
+    border: 1px solid gray;
+    margin-right: 10px;
+    padding: 15px 10px 10px 10px;
+}
+.logo2{
+    margin-right: 100px;
+}
+.connect-with-us h4{
+    padding-bottom: 15px;
+    border-bottom: 1px solid gray;
+    color: white;
+}
+.madeby{
+    text-align: center;
+    background: #23272a;
+    padding: 30px 0 20px;
+    color: white;
+}
+.connect a{
+    color: white;
+    margin-right: 10px;
+}
+.connect a i{
+    margin: 10px 10px 0px 0px;
+}
+.ending{
+    display: flex;
+    justify-content: center;
+}
+@media only screen and (max-width: 300px){
+    form {
+        width: 240px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+}
+/* small devices (phones, 768px and down) */
+@media only screen and (max-width: 768px){
+    header{
+        background-size: cover;
+    }
+    .top-banner{
+        background-color: #54595F;
+        opacity: 1;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 10px;
+    }
+    .show{
+        display: block;
+    }
+    .call a{
+        display: none;
+    }
+    .show a{
+        display: inline-block;
+        margin-right: 2px;
+    }
+    .overlay {
+        height: 100px;
+        margin: 50px auto 100px auto;
+    }
+    .overlay h1{
+        font-size: 40px;
+    }
+    .nav{
+        background-color: rgb(61, 61, 61);
+        margin: 0px;
+        height: 110px;
+        padding: 0px 30px;
+    }
+    .nav-links{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        position: absolute;
+        top: 150px;
+        left: 0px;
+        background-color: rgb(61, 61, 61);
+        width: 100%;
+        box-shadow: 0px 10px 2px rgb(56, 56, 56);
+        transform: translateY(-160%);
+    }
+    .nav-links a i{
+        display: none;
+    }
+    .burger{
+        display: block;
+    }
+    .nav-links a{
+        margin-bottom: 20px;
+    }
+    .nav-links button{
+        width: 50%;
+        margin: auto;
+        padding-top: 30px;
+    }
+    form{
+       max-width: 400px;
+       padding: 30px 0px;
+       margin: 0px auto;
+       grid-template-columns: 1fr 1fr;
+       justify-content: center;
+    }
+    .btn{
+        text-align: center;
+        grid-column: 1 / 3;
+    }
+    form .input-group select{
+        width: 130px;
+        margin-bottom: 10px;
+    }
+    form .input-group input{
+        margin-bottom: 10px;
+    }
+    .paradise{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .footer-arr{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .ending{
+        flex-direction: column;
+    }
+    .ending .logo2{
+        margin-bottom: 30px;
+    }
+}
+a:hover{
+    color: white;
+    filter: brightness(230%);
+}
+.nav-active{
+   transform: translateY(0%);
+   transition: all 2.0s ease 0.2s;
+}
+.toggle .line1 {
+    transform: translateY(8px) rotate(45deg);
+    opacity: 1;
+}
+.toggle .line2{
+    opacity: 0;
+}
+.toggle .line3{
+    transform: translateY(-8px) rotate(-45deg);
+}
